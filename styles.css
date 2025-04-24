@@ -1,0 +1,86 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #f4f4f4;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+
+  .logo {
+    /* color rgb 168,8,38 */
+    background-color: rgb(168, 8, 38);
+  }
+
+
+  .main-title {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    font-size: 3em;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding: 2rem;
+    max-width: 100%;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    width: 100%;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .card h2 {
+    padding: 1rem;
+    font-size: 1.1rem;
+    text-align: center;
+    color: #333;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    font-size: 0.9rem;
+    color: #666;
+  }
+
